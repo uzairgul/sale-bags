@@ -16,9 +16,9 @@
 
 <body>
     <main class="bg-[#F9FBFF] w-full h-full">
-        <div class="max-w-[1728px] w-full mx-auto flex">
-            <section>
-                <div class="border-[#E8E8E8] border-r-[1px] min-w-[255px] w-full  px-5 ">
+        <div class=" max-w-[1728px] w-full mx-auto flex">
+            <section class=" hidden sm:block ">
+                <div class=" border-[#E8E8E8] border-r-[1px] min-w-[255px] w-full  px-5 ">
                     <div class="max-w-[216px] w-full pr-5  h-full ">
                         <div class="max-w-[129px] w-full pt-5 flex justify-between gap-[10px] ml-[41px] items-center  ">
                             <svg class=" cursor-pointer" width="40" height="40" viewBox="0 0 34 28" fill="none"
@@ -177,8 +177,8 @@
                 </div>
             </section>
 
-            <section class="max-w-[1473] w-full">
-                <div class=" w-full py-5 mx-auto border-b-[1px] border-[#E8E8E8]  pl-[84px] pr-[70px]">
+            <section class=" max-w-[1473] w-full">
+                <div class="hidden sm:block w-full py-5 mx-auto border-b-[1px] border-[#E8E8E8]  pl-[84px] pr-[70px]">
                     <div class=" w-full flex  ">
                         <div class="max-w-[424px] w-full   bg-white flex gap-5 py-[10px] px-5 rounded-[12px]  mr-[115px]">
                             <img src="./images/16.svg" alt>
@@ -218,14 +218,14 @@
                     </div>
                 </div>
                 <section>
-                    <div class="pt-[47px] pl-[80px] box-border">
+                    <div class=" lg:pt-[47px] lg:pl-[80px] box-border">
                         <p
-                            class="font-Inter font-normal tracking-[-2%] leading-6 text-[#808191] text-[24px]">Salesbag</p>
+                            class="hidden sm:block font-Inter font-normal tracking-[-2%] leading-6 text-[#808191] text-[24px]">Salesbag</p>
                         <a href="pinneditem.html"><p
-                                class="font-Inter font-semibold  leading-[56px] text-black tracking-[-2%] text-[48px] mt-2">Pinned
+                                class="hidden sm:block font-Inter font-semibold  leading-[56px] text-black tracking-[-2%] text-[48px] mt-2">Pinned
                                 Items</p></a>
                         <div
-                            class="flex flex-row-reverse pr-[90px] gap-[23px]">
+                            class="hidden sm:block  md:flex flex-row-reverse pr-[90px] gap-[23px]">
                             <a href="pinneditem.html"><p
                                     class="underline font-Inter font-normal leading-5 text-[16px] text-[#6151FF] tracking-[-2%]">Start
                                     New Chat</p></a>
@@ -233,13 +233,42 @@
                                     class="underline font-Inter font-normal leading-5 text-[16px] text-[#6151FF] tracking-[-2%]">Select
                                     pinned items</p></a>
                         </div>
+                        <div class="max-w-[430px] w-full md:hidden">
+                            <div class="w-full py-4 pl-[31px] pr-[32px]">
+                                <div class="flex justify-between">
+                                    <img src="./images/68.svg" alt="">
+                                    <div class="flex max-w-[156px] w-full justify-between">
+                                        <button class="py-[6px] px-5 bg-[#6151FF] rounded-[34px]"><p class="font-Inter font-normal text-[12px] leading-[14.52px] text-[#FFFFFF] ">New Post +</p></button>
+                                        <img src="./images/69.svg" alt="">
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <div class="w-full border border-x-transparent mt-4 pl-[36px] py-4 pr-[31px] flex justify-between ">
+                                <img src="./images/62.svg" alt="">
+                                <img src="./images/63.svg" alt="">
+                                <img src="./images/64.svg" alt="">
+                                <img src="./images/65.svg" alt="">
+                                <img src="./images/66.svg" alt="">
+                            </div>
+                            <div class="w-full border border-x-transparent border-t-0  pl-[36px] py-6  flex justify-between ">
+                                <img src="./images/67.svg" alt="">
+                                
+                            </div>
+
+                            <div class="flex justify-between mt-8 pl-8 pr-5 ">
+                                <p class="font-Inter font-semibold text-[16px] leading-6 text-[#000000]">10 Pinned Items</p>
+                            <button class="border border-[#6151FF] rounded-[23px] pl-[10px] pr-[10px]"><p class="font-Inter font-light text-[13px] leading-6 tracking-[-2%] text-[#6151FF]">Select</p></button>
+                            </div>
+                        </div>
                         <div
-                            class="mt-[50px] max-w-[1318px] w-full pr-[70px] mb-[115px]">
+                            class="mt-8 px-5 max-w-[430px] pb-[41px] lg:mt-[50px] lg:max-w-[1318px] w-full lg:pr-[70px] lg:pb-[115px]">
                 
                             <div
-                                class="grid grid-cols-4 gap-[30px] mt-[50px] ">
+                                class=" grid grid-cols-2 gap-y-5 gap-[10px] lg:grid-cols-4 lg:gap-[30px] lg:mt-[50px] ">
                                 <div
-                                    class="max-h-[420px] max-w-[300px]  bg-white flex flex-col pt-[15px] pb-[24px] rounded-3 gap-[21px]">
+                                    class= "max-w-[190px] pt-[11px] gap-y-[9.43px] lg:max-w-[300px] w-full bg-white flex flex-col lg:pt-[15px] lg:pb-[24px] rounded-3 lg:gap-y-[21px]">
                                     <div>
                                         <div
                                             class="relative flex justify-center"><img
@@ -247,7 +276,7 @@
                                                 alt
                                                 class="cursor-pointer">
                                             <div
-                                                class="absolute top-0 mt-[16px] px-4 z-10 flex min-w-[268px] justify-between  ">
+                                                class="hidden sm:block absolute top-0 mt-[16px] px-4 z-10 lg:flex min-w-[268px] justify-between  ">
                                                 <img
                                                     src="./images/30.svg"
                                                     alt
@@ -262,8 +291,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="flex justify-between max-w-[266px] w-full">
-                                        <div class="flex gap-3">
+                                    <div class="  flex justify-between lg:max-w-[266px] w-full">
+                                        <div class="hidden sm:block lg:flex gap-3">
                                             <img
                                                 src="./images/21.svg"
                                                 alt
@@ -282,7 +311,7 @@
                 
                                 </div>
                                 <div
-                                    class="max-h-[420px] max-w-[300px]  bg-white flex flex-col  pt-[15px] pb-[24px] rounded-3 gap-[21px]">
+                                    class="max-w-[190px] pt-[11px] gap-y-[9.43px] lg:max-w-[300px] w-full bg-white flex flex-col  lg:pt-[15px] pb-[24px] rounded-3 lg:gap-y-[21px]">
                                     <div>
                                         <div
                                             class="relative flex justify-center"><img
@@ -290,7 +319,7 @@
                                                 alt
                                                 class="cursor-pointer">
                                             <div
-                                                class="absolute top-0 mt-[16px] px-4 z-10 flex min-w-[268px] justify-between  ">
+                                                class="hidden sm:block absolute top-0 mt-[16px] px-4 z-10 lg:flex min-w-[268px] justify-between  ">
                                                 <img
                                                     src="./images/30.svg"
                                                     alt
@@ -306,7 +335,7 @@
                                         </div>
                                     </div>
                                     <div class="flex justify-between max-w-[266px] w-full">
-                                        <div class="flex gap-3">
+                                        <div class=" hidden sm:block lg:flex gap-3">
                                             <img
                                                 src="./images/22.svg"
                                                 alt
@@ -316,7 +345,7 @@
                                                 <p
                                                     class="font-Inter font-semibold leading-5 text-black text-[14px] cursor-pointer">Junaid Jamshed</p>
                                                 <p
-                                                    class="font-Inter font-normal leading-4 text-[#808191] text-[12px] cursor-pointer">Pret</p>
+                                                    class=" font-Inter font-normal leading-4 text-[#808191] text-[12px] cursor-pointer">Pret</p>
                                             </div>
                                         </div>
                                         <p
@@ -324,7 +353,7 @@
                                     </div>
                                 </div>
                                 <div
-                                    class="max-h-[420px] max-w-[300px]  bg-white flex flex-col  pt-[15px] pb-[24px] rounded-3 gap-[21px]">
+                                    class="max-w-[190px] pt-[11px] gap-y-[9.43px] lg:max-w-[300px] w-full bg-white flex flex-col  lg:pt-[15px] pb-[24px] rounded-3 lg:gap-y-[21px]">
                                     <div>
                                         <div
                                             class="relative flex justify-center"><img
@@ -332,7 +361,7 @@
                                                 alt
                                                 class="cursor-pointer">
                                             <div
-                                                class="absolute top-0 mt-[16px] px-4 z-10 flex min-w-[268px] justify-between  ">
+                                                class="hidden sm:block absolute top-0 mt-[16px] px-4 z-10 lg:flex min-w-[268px] justify-between  ">
                                                 <img
                                                     src="./images/30.svg"
                                                     alt
@@ -348,7 +377,7 @@
                                         </div>
                                     </div>
                                     <div class="flex justify-between max-w-[266px] w-full">
-                                        <div class="flex gap-3">
+                                        <div class="hidden sm:block lg:flex gap-3">
                                             <img
                                                 src="./images/23.svg"
                                                 alt
@@ -367,7 +396,7 @@
                                     </div>
                                 </div>
                                 <div
-                                    class="max-h-[420px] max-w-[300px]  bg-white flex flex-col  pt-[15px] pb-[24px] rounded-3 gap-[21px] ">
+                                    class="max-w-[190px] pt-[11px] gap-y-[9.43px] lg:max-w-[300px] w-full bg-white flex flex-col  lg:pt-[15px] pb-[24px] rounded-3 lg:gap-y-[21px]">
                                     <div>
                                         <div
                                             class="relative flex justify-center"><img
@@ -375,7 +404,7 @@
                                                 alt
                                                 class="cursor-pointer">
                                             <div
-                                                class="absolute top-0 mt-[16px] px-4 z-10 flex min-w-[268px] justify-between  ">
+                                                class="hidden sm:block absolute top-0 mt-[16px] px-4 z-10 lg:flex min-w-[268px] justify-between  ">
                                                 <img
                                                     src="./images/30.svg"
                                                     alt
@@ -391,7 +420,7 @@
                                         </div>
                                     </div>
                                     <div class="flex justify-between max-w-[266px] w-full">
-                                        <div class="flex gap-3">
+                                        <div class="hidden sm:block lg:flex gap-3 ">
                                             <img
                                                 src="./images/24.svg"
                                                 alt
@@ -409,7 +438,7 @@
                                     </div>
                                 </div>
                                 <div
-                                    class="max-h-[420px] max-w-[300px]  bg-white flex flex-col pt-[15px] pb-[24px] rounded-3 gap-[21px]">
+                                    class="max-w-[190px] pt-[11px] gap-y-[9.43px] lg:max-w-[300px] w-full bg-white flex flex-col  lg:pt-[15px] pb-[24px] rounded-3 lg:gap-y-[21px]">
                                     <div>
                                         <div
                                             class="relative flex justify-center"><img
@@ -417,7 +446,7 @@
                                                 alt
                                                 class="cursor-pointer">
                                             <div
-                                                class="absolute top-0 mt-[16px] px-4 z-10 flex min-w-[268px] justify-between  ">
+                                                class="hidden sm:block absolute top-0 mt-[16px] px-4 z-10 lg:flex min-w-[268px] justify-between  ">
                                                 <img
                                                     src="./images/30.svg"
                                                     alt
@@ -433,7 +462,7 @@
                                         </div>
                                     </div>
                                     <div class="flex justify-between max-w-[266px] w-full">
-                                        <div class="flex gap-3">
+                                        <div class="hidden sm:block lg:flex gap-3">
                                             <img
                                                 src="./images/21.svg"
                                                 alt
@@ -452,7 +481,7 @@
                 
                                 </div>
                                 <div
-                                    class="max-h-[420px] max-w-[300px]  bg-white flex flex-col pt-[15px] pb-[24px] rounded-3 gap-[21px]">
+                                    class="max-w-[190px] pt-[11px] gap-y-[9.43px] lg:max-w-[300px] w-full bg-white flex flex-col  lg:pt-[15px] pb-[24px] rounded-3 lg:gap-y-[21px]">
                                     <div>
                                         <div
                                             class="relative flex justify-center"><img
@@ -460,7 +489,7 @@
                                                 alt
                                                 class="cursor-pointer">
                                             <div
-                                                class="absolute top-0 mt-[16px] px-4 z-10 flex min-w-[268px] justify-between  ">
+                                                class="hidden sm:block absolute top-0 mt-[16px] px-4 z-10 lg:flex min-w-[268px] justify-between  ">
                                                 <img
                                                     src="./images/30.svg"
                                                     alt
@@ -476,7 +505,7 @@
                                         </div>
                                     </div>
                                     <div class="flex justify-between max-w-[266px] w-full">
-                                        <div class="flex gap-3">
+                                        <div class="hidden sm:block lg:flex gap-3">
                                             <img
                                                 src="./images/22.svg"
                                                 alt
@@ -494,7 +523,7 @@
                                     </div>
                                 </div>
                                 <div
-                                    class="max-h-[420px] max-w-[300px]  bg-white flex flex-col  pt-[15px] pb-[24px] rounded-3 gap-[21px]">
+                                    class="max-w-[190px] pt-[11px] gap-y-[9.43px] lg:max-w-[300px] w-full bg-white flex flex-col  lg:pt-[15px] pb-[24px] rounded-3 lg:gap-y-[21px]">
                                     <div>
                                         <div
                                             class="relative flex justify-center"><img
@@ -502,7 +531,7 @@
                                                 alt
                                                 class="cursor-pointer">
                                             <div
-                                                class="absolute top-0 mt-[16px] px-4 z-10 flex min-w-[268px] justify-between  ">
+                                                class="hidden sm:block absolute top-0 mt-[16px] px-4 z-10 lg:flex min-w-[268px] justify-between  ">
                                                 <img
                                                     src="./images/30.svg"
                                                     alt
@@ -518,7 +547,7 @@
                                         </div>
                                     </div>
                                     <div class="flex justify-between max-w-[266px] w-full">
-                                        <div class="flex gap-3">
+                                        <div class="hidden sm:block lg:flex gap-3">
                                             <img
                                                 src="./images/23.svg"
                                                 alt
@@ -537,7 +566,7 @@
                                     </div>
                                 </div>
                                 <div
-                                    class="max-h-[420px] max-w-[300px]  bg-white flex flex-col pt-[15px] pb-[24px] rounded-3 gap-[21px] ">
+                                    class="max-w-[190px] pt-[11px] gap-y-[9.43px] lg:max-w-[300px] w-full bg-white flex flex-col  lg:pt-[15px] pb-[24px] rounded-3 lg:gap-y-[21px]">
                                     <div>
                                         <div
                                             class="relative flex justify-center"><img
@@ -545,7 +574,7 @@
                                                 alt
                                                 class="cursor-pointer">
                                             <div
-                                                class="absolute top-0 mt-[16px] px-4 z-10 flex min-w-[268px] justify-between  ">
+                                                class="hidden sm:block absolute top-0 mt-[16px] px-4 z-10 lg:flex min-w-[268px] justify-between  ">
                                                 <img
                                                     src="./images/30.svg"
                                                     alt
@@ -561,7 +590,7 @@
                                         </div>
                                     </div>
                                     <div class="flex justify-between max-w-[266px] w-full">
-                                        <div class="flex gap-3">
+                                        <div class="hidden sm:block lg:flex gap-3">
                                             <img
                                                 src="./images/24.svg"
                                                 alt
