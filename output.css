@@ -828,6 +828,14 @@ video {
   margin-top: 60px;
 }
 
+.mr-\[12px\]{
+  margin-right: 12px;
+}
+
+.mr-\[27px\]{
+  margin-right: 27px;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -978,10 +986,6 @@ video {
 
 .max-w-\[1473\]{
   max-width: 1473;
-}
-
-.max-w-\[163px\]{
-  max-width: 163px;
 }
 
 .max-w-\[1728px\]{
