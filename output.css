@@ -940,6 +940,10 @@ video {
   min-width: 98px;
 }
 
+.min-w-\[68px\]{
+  min-width: 68px;
+}
+
 .max-w-\[1016px\]{
   max-width: 1016px;
 }
@@ -1116,6 +1120,14 @@ video {
   max-width: 997px;
 }
 
+.max-w-\[114px\]{
+  max-width: 114px;
+}
+
+.max-w-\[266px\]{
+  max-width: 266px;
+}
+
 .border-collapse{
   border-collapse: collapse;
 }
@@ -1274,10 +1286,6 @@ video {
 
 .gap-\[47px\]{
   gap: 47px;
-}
-
-.gap-\[77px\]{
-  gap: 77px;
 }
 
 .gap-\[84px\]{
